@@ -1,3 +1,4 @@
+---
 - name: k8s client configuration
   lineinfile:
     dest: /etc/kubernetes/kubelet

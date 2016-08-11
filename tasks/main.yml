@@ -1,9 +1,5 @@
 ---
 - include: install.yml
-
-- name: Configure SELinux to use NFS
-  command: setsebool virt_use_nfs on
-  ignore_errors: True
-
+- include: configure_selinux.yml
 - include: configure_flannel.yml
 - include: configure_k8s.yml

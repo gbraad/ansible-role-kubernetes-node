@@ -1,0 +1,4 @@
+---
+- name: Configure SELinux to use NFS
+  command: setsebool virt_use_nfs on
+  ignore_errors: True

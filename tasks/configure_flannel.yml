@@ -1,3 +1,4 @@
+---
 - name: Configure Docker to use registry cache
   lineinfile:
     dest: /etc/sysconfig/docker
