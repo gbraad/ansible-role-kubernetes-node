@@ -21,7 +21,7 @@ Example Playbook
 - name: Deploy kubernetes node
   hosts: localhost
   roles:
-    - gbraad.k8s-node
+    - gbraad.kubernetes-node
 ```
 
 
