@@ -13,5 +13,5 @@
     name: flanneld
     state: restarted
 
-- name: systemd-daemon
+- name: reload systemd-daemon
   command: systemctl daemon-reload
